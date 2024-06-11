@@ -1,0 +1,34 @@
+{
+    "Hogger": {
+        "hp": 300,
+        "pdef": 1.2,
+        "mdef": 1.2,
+        "dipl": 200,
+        "image": "https://static.wikia.nocookie.net/wowpedia/images/e/ee/Hogger_TCG.jpg/revision/latest/scale-to-width-down/1000?cb=20160422112844",
+        "boss": true,
+        "miniboss": {},
+        "color": "#FFD700"
+    },
+
+     "Gug Fatcandle": {
+        "hp": 180,
+        "pdef": 1,
+        "mdef": 1,
+        "dipl": 150,
+        "image": "https://wow.zamimg.com/uploads/screenshots/normal/620318-gug-fatcandle-updated-model.jpg",
+        "boss": true,
+        "miniboss": {},
+        "color": "#C0C0C0"
+    },
+
+    "Edwin VanCleef": {
+        "hp": 350,
+        "pdef": 1.3,
+        "mdef": 1.3,
+        "dipl": 250,
+        "image": "https://wow.zamimg.com/uploads/screenshots/normal/52281-edwin-vancleef.jpg",
+        "boss": true,
+        "miniboss": {},
+        "color": "#C0C0C0"
+    }
+ }

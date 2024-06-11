@@ -1,0 +1,65 @@
+[2024-06-11 20:44:54] [INFO] discord.client: logging in using static token
+[2024-06-11 20:44:55] [INFO] red: Loading packages...
+[2024-06-11 20:44:55] [INFO] red: Loaded packages: permissions, downloader, snipe, autotraceback, economy, mod, mutes, alias, jar, battlebot, customcom, warnings, admin, cleanup, adventure
+[2024-06-11 20:44:56] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 698e3998175b8350f105a09fac9b74f0).
+[2024-06-11 20:44:56] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-11 21:13:00] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 698e3998175b8350f105a09fac9b74f0.
+[2024-06-11 21:22:43] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 698e3998175b8350f105a09fac9b74f0.
+[2024-06-11 22:02:34] [ERROR] discord.ui.view: Ignoring exception in view <GameSession timeout=120 children=6> for item <ActionButton style=<ButtonStyle.secondary: 2> url=None disabled=False label='Magic (1)' emoji=<PartialEmoji animated=False name='✨' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\game_session.py", line 86, in callback
+    await self.view.update()
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\game_session.py", line 519, in update
+    await self.message.edit(view=self)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\message.py", line 2275, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 743, in request
+    raise DiscordServerError(response, data)
+discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: connection termination
+[2024-06-11 22:06:06] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 698e3998175b8350f105a09fac9b74f0.
+[2024-06-11 23:31:38] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\trivia\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(Trivia(bot))
+
+[2024-06-11 23:31:38] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 23:32:48] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\trivia\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(Trivia(bot))
+
+[2024-06-11 23:32:48] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 23:36:52] [ERROR] discord.ui.modal: Ignoring exception in modal <JoinGameModal timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ui\modal.py", line 188, in _scheduled_task
+    await self.on_submit(interaction)
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\acronymgame\view.py", line 82, in on_submit
+    self._parent._message: discord.Message = await self._parent._message.edit(embed=embed)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\message.py", line 2275, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+[2024-06-11 23:39:30] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\trivia\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(Trivia(bot))
+
+[2024-06-11 23:39:30] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression

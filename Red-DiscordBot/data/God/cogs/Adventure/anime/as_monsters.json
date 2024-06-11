@@ -1,0 +1,45 @@
+{
+    "Mob": {
+        "hp": 300,
+        "pdef": 1.2,
+        "mdef": 1.2,
+        "dipl": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-02PO_3nXY4P5UqO27nNSE0qxz4aRSVso8Te1Prp6N-yP-YGdbiQkY-QB2Kpo",
+        "boss": true,
+        "miniboss": {},
+        "color": "#FFD700"
+    },
+
+    "Bulma": {
+        "hp": 300,
+        "pdef": 1.2,
+        "mdef": 1.2,
+        "dipl": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFJKqm5s5F1QbXR-3l2O7EyIo2WMQeKxAFp04E9FuXGjnnrZQjgi_rlNCEDotG",
+        "boss": true,
+        "miniboss": {},
+        "color": "#FFD700"
+    },
+
+    "Sanji": {
+        "hp": 300,
+        "pdef": 1.2,
+        "mdef": 1.2,
+        "dipl": 200,
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRwChRuhm2PewXjofECmIi-m4LzUjQjDY58OdMltm-5dmEi54nyfRg-FddZ5hzk",
+        "boss": true,
+        "miniboss": {},
+        "color": "#FFD700"
+    },
+
+    "Zoro": {
+        "hp": 300,
+        "pdef": 1.2,
+        "mdef": 1.2,
+        "dipl": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtSdAwWpRmiYhrChUciRRgJjlLa1oYWx2pHTLDS9m9etAgxbqy4vLffRiSC2pX",
+        "boss": true,
+        "miniboss": {},
+        "color": "#FFD700"
+    }
+ }

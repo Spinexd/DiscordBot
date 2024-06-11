@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: AAA3A_utils
+Version: 6.6
+Summary: Utils for AAA3A-cogs.
+Home-page: https://github.com/AAA3A-AAA3A/AAA3A_utils
+Author: AAA3A
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: MIT
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.1
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: sentry-sdk
+Requires-Dist: colorama
+
+# AAA3A_utils - Shared tools
+
+This is a Python package made for [AAA3A-cogs](https://github.com/AAA3A-AAA3A/AAA3A-cogs).
+
+The "AAA3A_utils" sub-folder is a PIP package, automatically downloaded by all my cogs.
+
+For more info (docs, contributing, contact), please check the AAA3A-cogs repository.
+
+Thanks to Vexed for the code and the documentation to use Telemetry with Sentry (https://github.com/Vexed01/vex-cog-utils/blob/ba8adb3d270c968bc7ff3e3b977ac90ff752dca3/vexcogutils/sentry.py)!
+
+## Install
+
+Type the following command in your console:
+
+```
+python -m pip install git+https://github.com/AAA3A-AAA3A/AAA3A_utils.git
+```

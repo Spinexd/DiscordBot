@@ -1,0 +1,15 @@
+{
+    "Rock Lee": {"hp": 100, "pdef": 0.4, "mdef": 0.2, "dipl": 180, "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXIt4Q4UiidrT5Kn-0wdMh14dQq7uN-hygLCIeBxiYnyxekWoKla6bub4_ac_l", "boss": false, "miniboss": {}, "color":"#808080"},
+    "Noelle Silva": {"hp": 120, "pdef": 0.2, "mdef": 0.3, "dipl": 200, "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTSmKWH004xUQDzVaGkPrKNY8rinWz9BRW3-j3BWnqA-LiSBjq3NLziZNao49gF", "boss": false, "miniboss": {}, "color":"#808080"},
+    "Connie Springer": {"hp": 140, "pdef": 0.2, "mdef": 0.3, "dipl": 150, "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcROH3OgxSZqQycdtG6HED1fxo3amT1tQFtaSFm-7GbQQKZoJVZfl5CKCEbwSNv5", "boss": false, "miniboss": {}, "color":"#00FF00"},
+    "Tenya Iida": {"hp": 150, "pdef": 0.2, "mdef": 0.3, "dipl": 152, "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtjTV5VjKXOhlhQxfJ43P_p5f9w9yuyp8slE9Nevjh95rtkcmqoK5I4VWPBe6x", "boss": false, "miniboss": {}, "color":"#00FF00"},
+    "Umino Gurio": {"hp": 150, "pdef": 0.2, "mdef": 0.3, "dipl": 152, "image": "https://static.wikia.nocookie.net/sailormoon/images/5/58/Gurio_Umino_-_Anime..png/revision/latest?cb=20220310192310", "boss": false, "miniboss": {}, "color":"#00FF00"},
+    "Hanako Honda": {"hp": 150, "pdef": 0.2, "mdef": 0.3, "dipl": 152, "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR9lzPkHkNyeehRr0IafdhFd5i3jXluaAd24XNK_BLr81wLOI5HzsTvQPYFCbZ8", "boss": false, "miniboss": {}, "color":"#00FF00"},
+    "Yui Hirasawa": {"hp": 150, "pdef": 0.2, "mdef": 0.3, "dipl": 152, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbPxSFUAIh1TnsMWSib6puIuYUn5GB-7x5RN40k68CNQ3Uem9a8twFRDUpB0zL", "boss": false, "miniboss": {}, "color":"#00FF00"},
+    "Leorio Paradinight": {"hp": 150, "pdef": 0.2, "mdef": 0.3, "dipl": 152, "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPe6u7xLZpT63z3zFOcwRXXmbPTnDFqttdAn2w8o8g_T5SSQ8LmwPz045WySNP", "boss": false, "miniboss": {}, "color":"#00FF00"},
+    "Erwin Smith": {"hp": 150, "pdef": 0.2, "mdef": 0.3, "dipl": 152, "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQLQkGHot4VgyCH8qRpEyW6e-Ukn7vidtplyYAOQkoUigOCyvlRzq5aI999RHAM", "boss": false, "miniboss": {}, "color":"#00FF00"},
+    "Inspector Ginoza": {"hp": 150, "pdef": 0.2, "mdef": 0.3, "dipl": 152, "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzeejNAvA_18IxbPZMpbtLCEEuP-_E5jp5M4AMskOzg94vp0hbTbLYO7ICQyGR", "boss": false, "miniboss": {}, "color":"#00FF00"},
+    "Krillin": {"hp": 150, "pdef": 0.2, "mdef": 0.3, "dipl": 152, "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQdVFVgKVy7zHpbLfUbJBSdDlA9kvKerLo4KSaeRMWqTkMv8_l8c113F2Koneut", "boss": false, "miniboss": {}, "color":"#00FF00"},
+    "Nami": {"hp": 150, "pdef": 0.2, "mdef": 0.3, "dipl": 152, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU9fuwtK7396TraCYLsu5dCbciJQZcXWEuHTpTkISoUwDG0XlQTtDVl1-hVTfz", "boss": false, "miniboss": {}, "color":"#00FF00"}
+    
+    }

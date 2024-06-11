@@ -1,0 +1,2387 @@
+[2024-06-10 08:05:42] [INFO] red: Begin updating guild configs to support multiple mod/admin roles
+[2024-06-10 08:05:42] [INFO] red: Done updating guild configs to support multiple mod/admin roles
+[2024-06-10 08:05:42] [INFO] red: Moving shared API tokens to a custom group
+[2024-06-10 08:05:42] [INFO] red: Migrating help menus to enum values
+[2024-06-10 08:05:42] [INFO] discord.client: logging in using static token
+[2024-06-10 08:05:43] [CRITICAL] red.main: This token doesn't seem to be valid.
+[2024-06-10 08:05:59] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 08:05:59] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:06:17] [INFO] discord.client: logging in using static token
+[2024-06-10 08:06:19] [INFO] red: No packages were loaded.
+[2024-06-10 08:06:20] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 90691fd817a18155bde56d491c31f1ff).
+[2024-06-10 08:06:20] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:22:05] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 08:22:05] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:22:11] [INFO] discord.client: logging in using static token
+[2024-06-10 08:22:11] [INFO] red: Loading packages...
+[2024-06-10 08:22:11] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:22:12] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 90a9976eca72901f491cd23d654d5dbc).
+[2024-06-10 08:22:12] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:22:30] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1683, in load_extension
+    raise discord.ClientException(f"extension {name} does not have a setup function")
+discord.errors.ClientException: extension battlebot does not have a setup function
+[2024-06-10 08:24:44] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1683, in load_extension
+    raise discord.ClientException(f"extension {name} does not have a setup function")
+discord.errors.ClientException: extension battlebot does not have a setup function
+[2024-06-10 08:24:48] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1683, in load_extension
+    raise discord.ClientException(f"extension {name} does not have a setup function")
+discord.errors.ClientException: extension battlebot does not have a setup function
+[2024-06-10 08:25:44] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 08:25:44] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:26:11] [INFO] discord.client: logging in using static token
+[2024-06-10 08:26:12] [INFO] red: Loading packages...
+[2024-06-10 08:26:12] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:26:12] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 7fd5261ed006bbddee584b070c56cb38).
+[2024-06-10 08:26:12] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:26:18] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1683, in load_extension
+    raise discord.ClientException(f"extension {name} does not have a setup function")
+discord.errors.ClientException: extension battlebot does not have a setup function
+[2024-06-10 08:27:10] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 08:27:10] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:34:35] [INFO] discord.client: logging in using static token
+[2024-06-10 08:34:36] [INFO] red: Loading packages...
+[2024-06-10 08:34:36] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:34:36] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4ef643f5dda285dce9bd9faa3c0f22e2).
+[2024-06-10 08:34:36] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:34:47] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\battlebot\__init__.py", line 1, in <module>
+    from .mycog import BattleBot
+ImportError: cannot import name 'BattleBot' from 'battlebot.mycog' (C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\battlebot\mycog.py)
+[2024-06-10 08:35:34] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 08:35:34] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:36:47] [INFO] discord.client: logging in using static token
+[2024-06-10 08:36:47] [INFO] red: Loading packages...
+[2024-06-10 08:36:48] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:36:48] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 21bfd6c5c14fe38b5138446cce3879ea).
+[2024-06-10 08:36:48] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:36:54] [WARNING] py.warnings: C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\battlebot\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 08:36:54] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 08:38:12] [WARNING] py.warnings: C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\battlebot\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 08:38:12] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 08:38:16] [WARNING] py.warnings: C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\battlebot\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 08:38:16] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 08:38:21] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 08:38:21] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:38:27] [INFO] discord.client: logging in using static token
+[2024-06-10 08:38:27] [INFO] red: Loading packages...
+[2024-06-10 08:38:27] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:38:28] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 5344d917bea0dd74d80cb710a43b13e2).
+[2024-06-10 08:38:28] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:38:33] [WARNING] py.warnings: C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\battlebot\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 08:38:33] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 08:40:03] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 08:40:03] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:40:09] [INFO] discord.client: logging in using static token
+[2024-06-10 08:40:09] [INFO] red: Loading packages...
+[2024-06-10 08:40:09] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:40:10] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 3e147210aa1760d4376bae815c02c607).
+[2024-06-10 08:40:10] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:40:14] [WARNING] py.warnings: C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\battlebot\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 08:40:14] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 08:41:50] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 08:41:50] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:41:54] [INFO] discord.client: logging in using static token
+[2024-06-10 08:41:55] [INFO] red: Loading packages...
+[2024-06-10 08:41:55] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:41:56] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 83f96cd2e85a43f21d135593588d364c).
+[2024-06-10 08:41:56] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:42:00] [WARNING] py.warnings: C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\battlebot\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 08:42:00] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 08:44:20] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 08:44:20] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:46:06] [INFO] discord.client: logging in using static token
+[2024-06-10 08:46:07] [INFO] red: Loading packages...
+[2024-06-10 08:46:07] [ERROR] red: Failed to load package adventure (package was not found in any cog path)
+[2024-06-10 08:46:07] [INFO] red: Loaded packages: downloader
+[2024-06-10 08:46:07] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 37961b288e00ed330ebc38d633b40362).
+[2024-06-10 08:46:07] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:46:57] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\adventure\adventure.py", line 25, in <module>
+    from .adventureresult import AdventureResults
+ImportError: attempted relative import with no known parent package
+[2024-06-10 08:49:10] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\adventure\adventure.py", line 25, in <module>
+    from .adventureresult import AdventureResults
+ImportError: attempted relative import with no known parent package
+[2024-06-10 08:49:14] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 08:49:14] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:49:31] [INFO] discord.client: logging in using static token
+[2024-06-10 08:49:31] [INFO] red: Loading packages...
+[2024-06-10 08:49:31] [INFO] red: Loaded packages: downloader
+[2024-06-10 08:49:32] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 0325ed417c186db988c6dbd1f6c895f1).
+[2024-06-10 08:49:32] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:49:39] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\adventure\adventure.py", line 25, in <module>
+    from .adventureresult import AdventureResults
+ImportError: attempted relative import with no known parent package
+[2024-06-10 08:49:55] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\adventure\adventure.py", line 25, in <module>
+    from .adventureresult import AdventureResults
+ImportError: attempted relative import with no known parent package
+[2024-06-10 08:51:02] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 08:51:02] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:51:06] [INFO] discord.client: logging in using static token
+[2024-06-10 08:51:07] [INFO] red: Loading packages...
+[2024-06-10 08:51:07] [INFO] red: Loaded packages: downloader
+[2024-06-10 08:51:07] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 31fe68a70260b58a799011cbd4b16a10).
+[2024-06-10 08:51:07] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:51:16] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py:19: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))  # Ensure bot object is passed here
+
+[2024-06-10 08:51:16] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 08:52:31] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 08:52:31] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:52:34] [INFO] discord.client: logging in using static token
+[2024-06-10 08:52:35] [INFO] red: Loading packages...
+[2024-06-10 08:52:35] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:52:35] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 6a7a04ac1bd31050249debd632d90b4e).
+[2024-06-10 08:52:35] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:52:40] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 24, in <module>
+    asyncio.run(main())  # Run the asynchronous code
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 186, in run
+    raise RuntimeError(
+RuntimeError: asyncio.run() cannot be called from a running event loop
+[2024-06-10 08:53:24] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 08:53:24] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:53:26] [WARNING] py.warnings: sys:1: RuntimeWarning: coroutine 'main' was never awaited
+
+[2024-06-10 08:53:27] [INFO] discord.client: logging in using static token
+[2024-06-10 08:53:28] [INFO] red: Loading packages...
+[2024-06-10 08:53:28] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:53:28] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 434cd67ba2180e7ffdf3590515aa2e92).
+[2024-06-10 08:53:28] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:53:31] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1683, in load_extension
+    raise discord.ClientException(f"extension {name} does not have a setup function")
+discord.errors.ClientException: extension battlebot does not have a setup function
+[2024-06-10 08:54:24] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 08:54:24] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:54:27] [INFO] discord.client: logging in using static token
+[2024-06-10 08:54:28] [INFO] red: Loading packages...
+[2024-06-10 08:54:28] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:54:28] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 141606aefdd482f839d1ab39a903011f).
+[2024-06-10 08:54:28] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:54:33] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py:25: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 08:54:33] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 08:55:14] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 08:55:14] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:55:18] [INFO] discord.client: logging in using static token
+[2024-06-10 08:55:18] [INFO] red: Loading packages...
+[2024-06-10 08:55:18] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:55:19] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 1a48b2c1753d8a3aa8dd422820de817e).
+[2024-06-10 08:55:19] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:55:23] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py:19: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 08:55:23] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 08:56:25] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 08:56:25] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:56:29] [INFO] discord.client: logging in using static token
+[2024-06-10 08:56:29] [INFO] red: Loading packages...
+[2024-06-10 08:56:30] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:56:30] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: ef540bc950cd750a007915a98662d59d).
+[2024-06-10 08:56:30] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:56:34] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 1, in <module>
+    from redbot.core import commands, logging
+ImportError: cannot import name 'logging' from 'redbot.core' (C:\Users\halvo\redenv\Lib\site-packages\redbot\core\__init__.py)
+[2024-06-10 08:57:20] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 08:57:20] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:57:23] [INFO] discord.client: logging in using static token
+[2024-06-10 08:57:24] [INFO] red: Loading packages...
+[2024-06-10 08:57:24] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:57:25] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 42ba8fc6dd433932ab830d2563680865).
+[2024-06-10 08:57:25] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:57:30] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 08:57:30] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:57:33] [INFO] discord.client: logging in using static token
+[2024-06-10 08:57:34] [INFO] red: Loading packages...
+[2024-06-10 08:57:35] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:57:35] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 070ffb46b01c59741cbbc8f7c125a2d8).
+[2024-06-10 08:57:35] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:57:39] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 2, in <module>
+    from redbot.core import commands, logging
+ImportError: cannot import name 'logging' from 'redbot.core' (C:\Users\halvo\redenv\Lib\site-packages\redbot\core\__init__.py)
+[2024-06-10 08:58:30] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 08:58:30] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 08:58:37] [INFO] discord.client: logging in using static token
+[2024-06-10 08:58:38] [INFO] red: Loading packages...
+[2024-06-10 08:58:38] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 08:58:39] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 089bf63239e337489cd56647c21e19bb).
+[2024-06-10 08:58:39] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 08:58:43] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py:20: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 08:58:43] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 09:01:06] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 09:01:06] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:01:09] [INFO] discord.client: logging in using static token
+[2024-06-10 09:01:09] [INFO] red: Loading packages...
+[2024-06-10 09:01:09] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:01:10] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 7d7a97bebafdc330f57831deaf1f181f).
+[2024-06-10 09:01:10] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:01:16] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py:20: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(battlebot(bot))
+
+[2024-06-10 09:01:16] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 09:03:26] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 09:03:26] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:03:34] [INFO] discord.client: logging in using static token
+[2024-06-10 09:03:35] [INFO] red: Loading packages...
+[2024-06-10 09:03:35] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:03:35] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 14f32ef607e5353457845d8b13b66b26).
+[2024-06-10 09:03:35] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:03:41] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py:15: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 09:03:41] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 09:04:56] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 09:04:56] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:05:02] [INFO] discord.client: logging in using static token
+[2024-06-10 09:05:03] [INFO] red: Loading packages...
+[2024-06-10 09:05:03] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:05:04] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: b43783c8a457f27427bfa8824ee9699d).
+[2024-06-10 09:05:04] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:05:12] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py:15: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 09:05:12] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 09:08:00] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 09:08:00] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:10:51] [INFO] discord.client: logging in using static token
+[2024-06-10 09:10:52] [INFO] red: Loading packages...
+[2024-06-10 09:10:52] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:10:53] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: b5dd617630f33a5b93005a40ce7aee23).
+[2024-06-10 09:10:53] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:10:58] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py:14: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 09:10:58] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 09:11:04] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 09:11:04] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:12:01] [INFO] discord.client: logging in using static token
+[2024-06-10 09:12:02] [INFO] red: Loading packages...
+[2024-06-10 09:12:02] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:12:03] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 3e756838de989418b0e0fd424ac0b55a).
+[2024-06-10 09:12:03] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:12:25] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 09:12:25] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:15:31] [INFO] discord.client: logging in using static token
+[2024-06-10 09:15:32] [INFO] red: Loading packages...
+[2024-06-10 09:15:32] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:15:32] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4e74769e9a7fe815140fdce4b365e7fa).
+[2024-06-10 09:15:32] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:20:36] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 09:20:36] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:21:19] [INFO] discord.client: logging in using static token
+[2024-06-10 09:21:19] [INFO] red: Loading packages...
+[2024-06-10 09:21:20] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:21:20] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: b8bc0222a84f9bc5627e711ccd8511fc).
+[2024-06-10 09:21:20] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:21:24] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 3, in <module>
+    class BattleBot(commands.Cog):
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 10, in BattleBot
+    async def battle(self, ctx, target: commands.Member = None):
+                                        ^^^^^^^^^^^^^^^
+AttributeError: module 'redbot.core.commands' has no attribute 'Member'
+[2024-06-10 09:24:29] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 09:24:29] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:24:32] [INFO] discord.client: logging in using static token
+[2024-06-10 09:24:33] [INFO] red: Loading packages...
+[2024-06-10 09:24:33] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:24:34] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4ec3cd6f5a2ef2277205f47f72fb65ac).
+[2024-06-10 09:24:34] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:25:17] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py:21: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(BattleBot(bot))
+
+[2024-06-10 09:25:17] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-10 09:34:22] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 09:34:22] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:34:25] [INFO] discord.client: logging in using static token
+[2024-06-10 09:34:26] [INFO] red: Loading packages...
+[2024-06-10 09:34:26] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:34:27] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: ff97dd0629dc7776e2adbcd125c6a917).
+[2024-06-10 09:34:27] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:34:32] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1683, in load_extension
+    raise discord.ClientException(f"extension {name} does not have a setup function")
+discord.errors.ClientException: extension battlebot does not have a setup function
+[2024-06-10 09:40:57] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 09:40:57] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:41:00] [INFO] discord.client: logging in using static token
+[2024-06-10 09:41:01] [INFO] red: Loading packages...
+[2024-06-10 09:41:01] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:41:01] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 9dcdcdf3f850446bafcc9edd8a1cca08).
+[2024-06-10 09:41:01] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:41:45] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1683, in load_extension
+    raise discord.ClientException(f"extension {name} does not have a setup function")
+discord.errors.ClientException: extension mycog does not have a setup function
+[2024-06-10 09:42:47] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1683, in load_extension
+    raise discord.ClientException(f"extension {name} does not have a setup function")
+discord.errors.ClientException: extension battlebot does not have a setup function
+[2024-06-10 09:45:27] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1683, in load_extension
+    raise discord.ClientException(f"extension {name} does not have a setup function")
+discord.errors.ClientException: extension battlebot does not have a setup function
+[2024-06-10 09:46:43] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 09:46:43] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:46:47] [INFO] discord.client: logging in using static token
+[2024-06-10 09:46:48] [INFO] red: Loading packages...
+[2024-06-10 09:46:48] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:46:48] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4de8679ca035c195b2a96f70f24cd9c1).
+[2024-06-10 09:46:48] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:46:51] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1683, in load_extension
+    raise discord.ClientException(f"extension {name} does not have a setup function")
+discord.errors.ClientException: extension battlebot does not have a setup function
+[2024-06-10 09:47:17] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 287, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 621, in _exec
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+ImportError: cannot import name 'BattleBot' from 'battlebot.battlebot' (C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py)
+[2024-06-10 09:48:56] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 188, in _load
+    self._cleanup_and_refresh_modules(spec.name)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 259, in _cleanup_and_refresh_modules
+    maybe_reload(m)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 254, in maybe_reload
+    importlib._bootstrap._exec(lib.__spec__, lib)
+  File "<frozen importlib._bootstrap>", line 621, in _exec
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+ImportError: cannot import name 'BattleBot' from 'battlebot.battlebot' (C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py)
+[2024-06-10 09:53:26] [INFO] discord.client: logging in using static token
+[2024-06-10 09:53:27] [INFO] red: Loading packages...
+[2024-06-10 09:53:27] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:53:28] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: b1087029454746542496295463c6b836).
+[2024-06-10 09:53:28] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 09:53:45] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+ImportError: cannot import name 'BattleBot' from 'battlebot.battlebot' (C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py)
+[2024-06-10 09:57:24] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 09:57:24] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 09:57:31] [INFO] discord.client: logging in using static token
+[2024-06-10 09:57:31] [INFO] red: Loading packages...
+[2024-06-10 09:57:31] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 09:57:32] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 2591cead7d18e67fb863942ab5ad9442).
+[2024-06-10 09:57:32] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 10:25:12] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 10:25:12] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 10:25:17] [INFO] discord.client: logging in using static token
+[2024-06-10 10:25:17] [INFO] red: Loading packages...
+[2024-06-10 10:25:17] [INFO] red: Loaded packages: downloader, adventure, battlebot
+[2024-06-10 10:25:18] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: c2e20eafd07eccc9a4e923e9e7bf32f7).
+[2024-06-10 10:25:18] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 10:25:34] [ERROR] red: Exception in command 'hello'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 18, in hello
+    await ctx.send(f"Hello {user_mention}")
+                            ^^^^^^^^^^^^
+NameError: name 'user_mention' is not defined
+[2024-06-10 10:37:03] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 5, in setup
+    await bot.add_cog(BattleBot(bot))
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1883, in add_cog
+    raise RuntimeError(
+RuntimeError: The BattleBot cog in the battlebot.battlebot package does not inherit from the commands.Cog base class. The cog author must update the cog to adhere to this requirement.
+[2024-06-10 10:48:02] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 22
+    async def battle(self, ctx, target: discord.Member):
+IndentationError: unexpected unindent
+[2024-06-10 10:50:47] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session c2e20eafd07eccc9a4e923e9e7bf32f7.
+[2024-06-10 10:54:55] [ERROR] red: Exception in command 'battle'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 27, in battle
+    if target.id in self.active_battles:
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'BattleBot' object has no attribute 'active_battles'
+[2024-06-10 10:56:10] [ERROR] red: Exception in command 'battle'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 27, in battle
+    if target.id in self.active_battles:
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'BattleBot' object has no attribute 'active_battles'
+[2024-06-10 10:58:24] [ERROR] red: Exception in command 'battle'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 27, in battle
+    if target.id in self.active_battles:
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'BattleBot' object has no attribute 'active_battles'
+[2024-06-10 10:59:26] [ERROR] red: Exception in command 'battle'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 58, in battle
+    while ctx_author_health > 0 and target_health > 0:
+          ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'ctx_author_health' where it is not associated with a value
+[2024-06-10 11:14:31] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 42
+    reaction, user = await.self.bot.wait_for('reaction_add', check=check, timeout=30)
+                          ^
+SyntaxError: invalid syntax
+[2024-06-10 11:15:14] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 5, in <module>
+    class BattleBot(commands.Cog):
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 80, in BattleBot
+    del self.active_battles[ctx.author.id]
+        ^^^^
+NameError: name 'self' is not defined
+[2024-06-10 11:16:40] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 5, in <module>
+    class BattleBot(commands.Cog):
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 80, in BattleBot
+    del self.active_battles[ctx.author.id]
+        ^^^^
+NameError: name 'self' is not defined
+[2024-06-10 11:18:37] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 5, in <module>
+    class BattleBot(commands.Cog):
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 79, in BattleBot
+    del self.active_battles[ctx.author.id]
+        ^^^^
+NameError: name 'self' is not defined
+[2024-06-10 11:18:55] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 11:18:55] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 11:18:59] [INFO] discord.client: logging in using static token
+[2024-06-10 11:18:59] [INFO] red: Loading packages...
+[2024-06-10 11:18:59] [INFO] red: Loaded packages: downloader, adventure
+[2024-06-10 11:19:00] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 1e9d6788385a17e3088bf922e292728a).
+[2024-06-10 11:19:00] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 11:19:08] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 5, in <module>
+    class BattleBot(commands.Cog):
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 79, in BattleBot
+    del self.active_battles[ctx.author.id]
+        ^^^^
+NameError: name 'self' is not defined
+[2024-06-10 11:20:37] [ERROR] red: Exception in command 'battle'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 79, in battle
+    del self.active_battles[ctx.author.id]
+        ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 374623019437654016
+[2024-06-10 11:23:43] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-10 11:23:43] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 11:23:56] [INFO] discord.client: logging in using static token
+[2024-06-10 11:23:56] [INFO] red: Loading packages...
+[2024-06-10 11:23:56] [INFO] red: Loaded packages: downloader, adventure, battlebot
+[2024-06-10 11:23:57] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: d651e9e489f8027a02e7d3a0ce198cf5).
+[2024-06-10 11:23:57] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 11:26:04] [ERROR] red: Exception in command 'battle'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 86, in battle
+    del self.active_battles[ctx.author.id]
+        ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 374623019437654016
+[2024-06-10 11:29:45] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 71
+    break
+    ^^^^^
+SyntaxError: 'break' outside loop
+[2024-06-10 11:44:28] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 102
+    break
+    ^^^^^
+SyntaxError: 'break' outside loop
+[2024-06-10 13:16:08] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session d651e9e489f8027a02e7d3a0ce198cf5.
+[2024-06-10 13:52:51] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 116
+    battle_embed.set_footer(text=f"{critical_msg_ctx}\n{critical_msg_target
+                                 ^
+SyntaxError: unterminated string literal (detected at line 116)
+[2024-06-10 13:55:04] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 117
+    battle_embed.set_footer(text=f"{critical_msg_ctx}\n{critical_msg_target}" if critical.battle_embed.set_footer(text=f"{critical_msg_ctx}\n{critical_msg_target}" if critical_msg_ctx and critical_msg_target else critical_msg_ctx or critical_msg_target)
+                           ^
+SyntaxError: '(' was never closed
+[2024-06-10 13:55:53] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 117
+    battle_embed.set_footer(text=f"{critical_msg_ctx}\n{critical_msg_target}") if critical.battle_embed.set_footer(text=f"{critical_msg_ctx}\n{critical_msg_target}" if critical_msg_ctx and critical_msg_target else critical_msg_ctx or critical_msg_target)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expected 'else' after 'if' expression
+[2024-06-10 14:01:25] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911196823673 responded with 429. Retrying in 0.42 seconds.
+[2024-06-10 14:01:25] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.41 seconds.
+[2024-06-10 14:01:26] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.82 seconds.
+[2024-06-10 14:01:26] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694891529863259 responded with 429. Retrying in 0.74 seconds.
+[2024-06-10 14:01:27] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.80 seconds.
+[2024-06-10 14:01:28] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911196823673 responded with 429. Retrying in 0.78 seconds.
+[2024-06-10 14:01:28] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694895661252749 responded with 429. Retrying in 0.78 seconds.
+[2024-06-10 14:01:28] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694886924521484 responded with 429. Retrying in 0.76 seconds.
+[2024-06-10 14:01:28] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694923805036596 responded with 429. Retrying in 0.48 seconds.
+[2024-06-10 14:01:29] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911196823673 responded with 429. Retrying in 0.82 seconds.
+[2024-06-10 14:01:29] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694923805036596 responded with 429. Retrying in 0.80 seconds.
+[2024-06-10 14:01:29] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694886924521484 responded with 429. Retrying in 0.80 seconds.
+[2024-06-10 14:01:30] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694886924521484 responded with 429. Retrying in 0.82 seconds.
+[2024-06-10 14:01:30] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694923805036596 responded with 429. Retrying in 0.81 seconds.
+[2024-06-10 14:01:31] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694923805036596 responded with 429. Retrying in 0.78 seconds.
+[2024-06-10 14:01:33] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694886924521484 responded with 429. Retrying in 0.77 seconds.
+[2024-06-10 14:01:33] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694898462916701 responded with 429. Retrying in 0.77 seconds.
+[2024-06-10 14:01:33] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694895661252749 responded with 429. Retrying in 0.72 seconds.
+[2024-06-10 14:01:33] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694891529863259 responded with 429. Retrying in 0.50 seconds.
+[2024-06-10 14:01:33] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694895661252749 responded with 429. Retrying in 0.83 seconds.
+[2024-06-10 14:01:34] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694898462916701 responded with 429. Retrying in 0.80 seconds.
+[2024-06-10 14:01:34] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694891529863259 responded with 429. Retrying in 0.68 seconds.
+[2024-06-10 14:01:34] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694891529863259 responded with 429. Retrying in 0.83 seconds.
+[2024-06-10 14:01:35] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694898462916701 responded with 429. Retrying in 0.76 seconds.
+[2024-06-10 14:01:36] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694898462916701 responded with 429. Retrying in 0.80 seconds.
+[2024-06-10 14:01:38] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694895661252749 responded with 429. Retrying in 0.76 seconds.
+[2024-06-10 14:01:38] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.76 seconds.
+[2024-06-10 14:01:38] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694886924521484 responded with 429. Retrying in 0.75 seconds.
+[2024-06-10 14:01:38] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694891529863259 responded with 429. Retrying in 0.74 seconds.
+[2024-06-10 14:01:38] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694886924521484 responded with 429. Retrying in 0.82 seconds.
+[2024-06-10 14:01:39] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694895661252749 responded with 429. Retrying in 0.82 seconds.
+[2024-06-10 14:01:39] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694891529863259 responded with 429. Retrying in 0.81 seconds.
+[2024-06-10 14:01:40] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694891529863259 responded with 429. Retrying in 0.81 seconds.
+[2024-06-10 14:01:40] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694886924521484 responded with 429. Retrying in 0.81 seconds.
+[2024-06-10 14:01:41] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694886924521484 responded with 429. Retrying in 0.81 seconds.
+[2024-06-10 14:01:43] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694898462916701 responded with 429. Retrying in 0.76 seconds.
+[2024-06-10 14:01:43] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911196823673 responded with 429. Retrying in 0.77 seconds.
+[2024-06-10 14:01:43] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.76 seconds.
+[2024-06-10 14:01:44] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.82 seconds.
+[2024-06-10 14:01:44] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694923805036596 responded with 429. Retrying in 0.77 seconds.
+[2024-06-10 14:01:44] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694898462916701 responded with 429. Retrying in 0.75 seconds.
+[2024-06-10 14:01:44] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694898462916701 responded with 429. Retrying in 0.84 seconds.
+[2024-06-10 14:01:45] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.77 seconds.
+[2024-06-10 14:01:46] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694898462916701 responded with 429. Retrying in 0.82 seconds.
+[2024-06-10 14:01:48] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.76 seconds.
+[2024-06-10 14:01:48] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694923805036596 responded with 429. Retrying in 0.75 seconds.
+[2024-06-10 14:01:48] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694898462916701 responded with 429. Retrying in 0.58 seconds.
+[2024-06-10 14:01:49] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694923805036596 responded with 429. Retrying in 0.83 seconds.
+[2024-06-10 14:01:49] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.81 seconds.
+[2024-06-10 14:01:49] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694895661252749 responded with 429. Retrying in 0.75 seconds.
+[2024-06-10 14:01:50] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.82 seconds.
+[2024-06-10 14:01:50] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694895661252749 responded with 429. Retrying in 0.81 seconds.
+[2024-06-10 14:01:51] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.82 seconds.
+[2024-06-10 14:01:53] [WARNING] discord.http: We are being rate limited. PATCH https://discord.com/api/v10/channels/1156883811552985118/messages/1249694911226314754 responded with 429. Retrying in 0.66 seconds.
+[2024-06-10 14:04:15] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 85
+    battle_embed = discord.Embed(description=f"Battle between {ctx.author.name} and {target.name} has begun!",
+IndentationError: unexpected indent
+[2024-06-10 14:30:15] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-10 14:30:15] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-10 14:30:20] [INFO] discord.client: logging in using static token
+[2024-06-10 14:30:21] [INFO] red: Loading packages...
+[2024-06-10 14:30:21] [INFO] red: Loaded packages: downloader, adventure, battlebot
+[2024-06-10 14:30:22] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 3c31cbc24cc1971665b4de854d2911a6).
+[2024-06-10 14:30:22] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-10 15:54:40] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 155
+    async def topclear(self, ctx):
+IndentationError: unexpected unindent
+[2024-06-10 16:09:11] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 155
+    async def topclear(self, ctx):
+IndentationError: unexpected unindent
+[2024-06-10 16:13:45] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 40
+    """Generate a health bar with hearts."""
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndentationError: expected an indented block after function definition on line 39
+[2024-06-10 16:14:57] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 40
+    """Generate a health bar with hearts."""
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndentationError: expected an indented block after function definition on line 39
+[2024-06-10 16:15:48] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\__init__.py", line 1, in <module>
+    from .battlebot import BattleBot
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 45
+    async def battle(self, ctx, target: discord.Member = None):
+IndentationError: unexpected unindent
+[2024-06-10 18:26:45] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 3c31cbc24cc1971665b4de854d2911a6.
+[2024-06-10 20:07:50] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 3c31cbc24cc1971665b4de854d2911a6.
+[2024-06-10 20:24:20] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 3c31cbc24cc1971665b4de854d2911a6.
+[2024-06-10 21:28:27] [ERROR] red: Exception in command 'top'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 155, in top
+    sorted_win_data = sorted(self.win_data.items(), key=lambda x: x[1]['wins'], reverse=True)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 155, in <lambda>
+    sorted_win_data = sorted(self.win_data.items(), key=lambda x: x[1]['wins'], reverse=True)
+                                                                  ~~~~^^^^^^^^
+TypeError: 'int' object is not subscriptable
+[2024-06-10 21:30:26] [ERROR] red: Exception in command 'top'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 165, in top
+    user = self.bot.get_user(int(user_id))
+                             ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'grillribba'
+[2024-06-10 21:48:27] [ERROR] red: Exception in command 'top'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 193, in top
+    await top_user.add_roles(role)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\member.py", line 1051, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50001): Missing Access
+[2024-06-10 21:50:44] [ERROR] red: Exception in command 'top'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 193, in top
+    await top_user.add_roles(role)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\member.py", line 1051, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+[2024-06-10 21:51:16] [ERROR] red: Exception in command 'top'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 193, in top
+    await top_user.add_roles(role)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\member.py", line 1051, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+[2024-06-10 21:51:59] [ERROR] red: Exception in command 'top'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 193, in top
+    await top_user.add_roles(role)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\member.py", line 1051, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+[2024-06-10 22:26:01] [ERROR] red: Exception in command 'top'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 193, in top
+    await top_user.add_roles(role)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\member.py", line 1051, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+[2024-06-11 00:03:10] [ERROR] red: Exception in command 'status'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 297, in status
+    if target is None:
+       ^^^^^^
+UnboundLocalError: cannot access local variable 'target' where it is not associated with a value
+[2024-06-11 00:04:15] [ERROR] red: Exception in command 'status'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 297, in status
+    if target is None:
+       ^^^^^^
+UnboundLocalError: cannot access local variable 'target' where it is not associated with a value
+[2024-06-11 00:06:09] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 3c31cbc24cc1971665b4de854d2911a6.
+[2024-06-11 00:12:17] [ERROR] red: Exception in command 'status'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 301, in status
+    user_id_str = str(ctx.target.id)
+                      ^^^^^^^^^^
+AttributeError: 'Context' object has no attribute 'target'
+[2024-06-11 00:13:25] [ERROR] red: Exception in command 'status'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 301, in status
+    user_id_str = str(ctx.target.id)
+                      ^^^^^^^^^^
+AttributeError: 'Context' object has no attribute 'target'
+[2024-06-11 00:14:52] [ERROR] red: Exception in command 'status'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 301, in status
+    user_id_str = str(ctx.target.id)
+                      ^^^^^^^^^^
+AttributeError: 'Context' object has no attribute 'target'
+[2024-06-11 00:20:49] [ERROR] red: Exception in command 'status'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 301, in status
+    user_id_str = str(ctx.target.id)
+                      ^^^^^^^^^^
+AttributeError: 'Context' object has no attribute 'target'
+[2024-06-11 00:40:37] [ERROR] red: Exception in command 'battle'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\battlebot\battlebot.py", line 191, in battle
+    await battle_msg.edit(embed=battle_embed)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\message.py", line 2275, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 743, in request
+    raise DiscordServerError(response, data)
+discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: immediate connect error: No such file or directory
+[2024-06-11 00:44:58] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 3c31cbc24cc1971665b4de854d2911a6.
+[2024-06-11 01:08:08] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 3c31cbc24cc1971665b4de854d2911a6.
+[2024-06-11 03:57:05] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 3c31cbc24cc1971665b4de854d2911a6.
+[2024-06-11 04:46:19] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 3c31cbc24cc1971665b4de854d2911a6.
+[2024-06-11 07:52:02] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 3c31cbc24cc1971665b4de854d2911a6.
+[2024-06-11 07:53:27] [WARNING] py.warnings: C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\Downloader\lib\beautifultable\utils.py:125: FutureWarning: 'BeautifulTable.__iter__' has been deprecated in 'v1.0.01.2.0' and will be removed in 'v<function BTRowCollection.__iter__ at 0x000001CE33E1CEA0>'. Use iter(BeautifulTable.rows)' instead.
+  warnings.warn(message, FutureWarning)
+
+[2024-06-11 07:53:27] [WARNING] py.warnings: C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\Downloader\lib\beautifultable\utils.py:125: FutureWarning: 'BeautifulTable.__len__' has been deprecated in 'v1.0.0' and will be removed in 'v1.2.0'. Use len(BeautifulTable.rows)' instead.
+  warnings.warn(message, FutureWarning)
+
+[2024-06-11 08:03:30] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\__init__.py", line 2, in <module>
+    from .adventure import Adventure
+ImportError: cannot import name 'Adventure' from 'adventure.adventure' (C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py)
+[2024-06-11 08:04:42] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\__init__.py", line 2, in <module>
+    from .adventure import Adventure
+ImportError: cannot import name 'Adventure' from 'adventure.adventure' (C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py)
+[2024-06-11 08:25:41] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-11 08:25:41] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-11 08:25:50] [INFO] discord.client: logging in using static token
+[2024-06-11 08:25:50] [INFO] red: Loading packages...
+[2024-06-11 08:25:50] [INFO] red: Loaded packages: downloader, snipe, autotraceback, economy, battlebot, mod, mutes, alias
+[2024-06-11 08:25:51] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4b01356474a7e761e352fe38ac75ffc0).
+[2024-06-11 08:25:51] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-11 08:25:57] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\__init__.py", line 2, in <module>
+    from .adventure import Adventure
+ImportError: cannot import name 'Adventure' from 'adventure.adventure' (C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py)
+[2024-06-11 08:26:04] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\__init__.py", line 2, in <module>
+    from .adventure import Adventure
+ImportError: cannot import name 'Adventure' from 'adventure.adventure' (C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py)
+[2024-06-11 08:28:38] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\__init__.py", line 2, in <module>
+    from .adventure import Adventure
+ImportError: cannot import name 'Adventure' from 'adventure.adventure' (C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py)
+[2024-06-11 08:30:48] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1680, in load_extension
+    lib = spec.loader.load_module()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 605, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1120, in load_module
+  File "<frozen importlib._bootstrap_external>", line 945, in load_module
+  File "<frozen importlib._bootstrap>", line 290, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 721, in _load
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\__init__.py", line 2, in <module>
+    from .adventure import Adventure
+ImportError: cannot import name 'Adventure' from 'adventure.adventure' (C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py)
+[2024-06-11 08:40:12] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 188, in _load
+    self._cleanup_and_refresh_modules(spec.name)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 267, in _cleanup_and_refresh_modules
+    importlib._bootstrap._exec(lib.__spec__, lib)
+  File "<frozen importlib._bootstrap>", line 621, in _exec
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py", line 25, in <module>
+    from .adventureresult import AdventureResults
+ModuleNotFoundError: No module named 'adventure'
+[2024-06-11 08:42:13] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-11 08:42:13] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-11 08:44:08] [INFO] discord.client: logging in using static token
+[2024-06-11 08:44:08] [INFO] red: Loading packages...
+[2024-06-11 08:44:08] [INFO] red: Loaded packages: downloader, snipe, autotraceback, economy, battlebot, mod, mutes, alias
+[2024-06-11 08:44:09] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: c9a138d84ba46626d669ebd6c238cc09).
+[2024-06-11 08:44:09] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-11 10:05:25] [ERROR] red.cogs.adventure: There was an error starting up the cog
+Traceback (most recent call last):
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py", line 294, in initialize
+    self.MONSTERS = json.load(f)
+                    ^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 8 column 1 (char 1221)
+[2024-06-11 10:09:02] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session c9a138d84ba46626d669ebd6c238cc09.
+[2024-06-11 10:58:23] [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='discord.py: on_message_without_command' coro=<Client._run_event() running at C:\Users\halvo\redenv\Lib\site-packages\discord\client.py:441> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+[2024-06-11 10:58:23] [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='discord.py: on_message' coro=<Client._run_event() running at C:\Users\halvo\redenv\Lib\site-packages\discord\client.py:441> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+[2024-06-11 10:58:23] [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='discord.py: on_message' coro=<Client._run_event() running at C:\Users\halvo\redenv\Lib\site-packages\discord\client.py:441> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+[2024-06-11 11:36:36] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session c9a138d84ba46626d669ebd6c238cc09.
+[2024-06-11 12:10:28] [ERROR] red: InvalidOperation
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\economy.py", line 229, in commands_atransfer_give
+    amount=humanize_number(amount),
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\utils\chat_formatting.py", line 638, in humanize_number
+    return format_decimal(val, locale=get_babel_regional_format(override_locale))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\babel\numbers.py", line 578, in format_decimal
+    return pattern.apply(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\babel\numbers.py", line 1440, in apply
+    number = self._quantize_value(value, locale, frac_prec, group_separator, numbering_system=numbering_system)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\babel\numbers.py", line 1531, in _quantize_value
+    rounded = value.quantize(quantum)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+[2024-06-11 13:19:15] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\channel_locker\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(ChannelLocker(bot))
+
+[2024-06-11 13:19:15] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 13:20:36] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\channel_locker\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(ChannelLocker(bot))
+
+[2024-06-11 13:20:36] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 13:23:39] [ERROR] discord.client: Ignoring exception in on_command
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\channel_locker\channel_locker.py", line 42, in on_command
+    raise commands.CheckFailure("Adventure commands are locked to a specific channel.")
+discord.ext.commands.errors.CheckFailure: Adventure commands are locked to a specific channel.
+[2024-06-11 13:33:29] [ERROR] red: ValueError
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventureset.py", line 189, in commands_adventureset_economy_tax
+    if int(k) >= 0 and 0 <= float(v) <= 1:
+                            ^^^^^^^^
+ValueError: could not convert string to float: ''
+[2024-06-11 13:33:52] [ERROR] red: ValueError
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventureset.py", line 189, in commands_adventureset_economy_tax
+    if int(k) >= 0 and 0 <= float(v) <= 1:
+                            ^^^^^^^^
+ValueError: could not convert string to float: ''
+[2024-06-11 13:34:23] [ERROR] red: ValueError
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventureset.py", line 189, in commands_adventureset_economy_tax
+    if int(k) >= 0 and 0 <= float(v) <= 1:
+                            ^^^^^^^^
+ValueError: could not convert string to float: ''
+[2024-06-11 13:38:46] [ERROR] discord.client: Ignoring exception in on_command
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\channel_locker\channel_locker.py", line 48, in on_command
+    raise commands.CheckFailure("Adventure commands are locked to a specific channel.")
+discord.ext.commands.errors.CheckFailure: Adventure commands are locked to a specific channel.
+[2024-06-11 13:38:50] [ERROR] discord.client: Ignoring exception in on_command
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\channel_locker\channel_locker.py", line 48, in on_command
+    raise commands.CheckFailure("Adventure commands are locked to a specific channel.")
+discord.ext.commands.errors.CheckFailure: Adventure commands are locked to a specific channel.
+[2024-06-11 13:41:28] [ERROR] discord.client: Ignoring exception in on_command
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\channel_locker\channel_locker.py", line 49, in on_command
+    raise commands.CheckFailure("Adventure commands are locked to a specific channel.")
+discord.ext.commands.errors.CheckFailure: Adventure commands are locked to a specific channel.
+[2024-06-11 13:41:33] [ERROR] discord.client: Ignoring exception in on_command
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\channel_locker\channel_locker.py", line 49, in on_command
+    raise commands.CheckFailure("Adventure commands are locked to a specific channel.")
+discord.ext.commands.errors.CheckFailure: Adventure commands are locked to a specific channel.
+[2024-06-11 13:41:38] [ERROR] discord.client: Ignoring exception in on_command
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\channel_locker\channel_locker.py", line 49, in on_command
+    raise commands.CheckFailure("Adventure commands are locked to a specific channel.")
+discord.ext.commands.errors.CheckFailure: Adventure commands are locked to a specific channel.
+[2024-06-11 13:43:21] [ERROR] discord.client: Ignoring exception in on_command
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\channel_locker\channel_locker.py", line 45, in on_command
+    if not await self.adventure_channel_check(ctx):
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:43:30] [ERROR] discord.client: Ignoring exception in on_command
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\OneDrive\Skrivebord\Cogs\channel_locker\channel_locker.py", line 45, in on_command
+    if not await self.adventure_channel_check(ctx):
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:44:30] [ERROR] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\_events.py", line 480, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\hybrid.py", line 526, in can_run
+    return await super().can_run(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:44:34] [ERROR] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\_events.py", line 480, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\hybrid.py", line 526, in can_run
+    return await super().can_run(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:44:39] [ERROR] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\_events.py", line 480, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:45:31] [ERROR] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\_events.py", line 480, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:45:36] [ERROR] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\_events.py", line 480, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:45:41] [ERROR] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\_events.py", line 480, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:47:50] [ERROR] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\_events.py", line 480, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\hybrid.py", line 526, in can_run
+    return await super().can_run(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:48:08] [ERROR] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\_events.py", line 480, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\hybrid.py", line 526, in can_run
+    return await super().can_run(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:48:11] [ERROR] discord.client: Ignoring exception in on_message_without_command
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\cogs\alias\alias.py", line 489, in on_message_without_command
+    await self.call_alias(message, prefix, alias)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\cogs\alias\alias.py", line 154, in call_alias
+    await self.bot.process_commands(new_message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:48:20] [ERROR] discord.client: Ignoring exception in on_message_without_command
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\cogs\alias\alias.py", line 489, in on_message_without_command
+    await self.call_alias(message, prefix, alias)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\cogs\alias\alias.py", line 154, in call_alias
+    await self.bot.process_commands(new_message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:48:33] [ERROR] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\_events.py", line 480, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:48:35] [ERROR] discord.client: Ignoring exception in on_message_without_command
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\cogs\alias\alias.py", line 489, in on_message_without_command
+    await self.call_alias(message, prefix, alias)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\cogs\alias\alias.py", line 154, in call_alias
+    await self.bot.process_commands(new_message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 13:53:42] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\adventurecooldown\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(AdventureCooldownManager(bot))
+
+[2024-06-11 13:53:42] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 13:54:50] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\adventurecooldown\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(AdventureCooldownManager(bot))
+
+[2024-06-11 13:54:50] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 13:55:48] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\adventurecooldown\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(AdventureCooldownManager(bot))
+
+[2024-06-11 13:55:48] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 13:56:55] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\adventurecooldown\__init__.py:5: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+
+[2024-06-11 13:56:55] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 13:59:22] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\adventurecooldown\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(AdventureCooldownManager(bot))
+
+[2024-06-11 13:59:22] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:00:10] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\adventurecooldown\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(AdventureCooldownManager(bot))
+
+[2024-06-11 14:00:10] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:00:45] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\adventurecooldown\__init__.py:5: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+
+[2024-06-11 14:00:45] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:06:10] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\trivia\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(Trivia(bot))
+
+[2024-06-11 14:06:10] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:06:31] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\trivia\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(Trivia(bot))
+
+[2024-06-11 14:06:31] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:07:16] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\trivia\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(Trivia(bot))
+
+[2024-06-11 14:07:16] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:15:30] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session c9a138d84ba46626d669ebd6c238cc09.
+[2024-06-11 14:20:40] [ERROR] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\_events.py", line 480, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1649, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 501, in prepare
+    if not await self.can_run(ctx, change_permission_state=True):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\commands\commands.py", line 429, in can_run
+    ret = await super().can_run(ctx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\utils.py", line 703, in async_all
+    for elem in gen:
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 1288, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+                                         ^^^^^^^^^^^^^^
+TypeError: ChannelLocker.adventure_channel_check() takes 1 positional argument but 2 were given
+[2024-06-11 14:29:43] [ERROR] red.cogs.adventure: Error with the countdown timer
+Traceback (most recent call last):
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py", line 1090, in _choice
+    await asyncio.wait_for(timer, timeout=timeout + 5)
+  File "C:\Users\halvo\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py", line 2528, in adv_countdown
+    await message_adv.delete()
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\message.py", line 859, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+[2024-06-11 14:29:43] [ERROR] red.cogs.adventure: Something went wrong controlling the game
+Traceback (most recent call last):
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py", line 582, in _adventure
+    reward, participants = await self._simple(ctx, adventure_msg, challenge)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py", line 968, in _simple
+    await self._choice(ctx, adventure_msg)
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py", line 1096, in _choice
+    await adventure_msg.edit(view=None)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\message.py", line 2275, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+[2024-06-11 14:37:24] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\jar\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(PermissionsCog(bot))
+
+[2024-06-11 14:37:24] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:38:03] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\jar\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(PermissionsCog(bot))
+
+[2024-06-11 14:38:03] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:40:00] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\jar\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(PermissionsCog(bot))
+
+[2024-06-11 14:40:00] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:42:27] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\jar\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(PermissionsCog(bot))
+
+[2024-06-11 14:42:27] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:43:48] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\jar\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(PermissionsCog(bot))
+
+[2024-06-11 14:43:48] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:44:50] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\jar\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(PermissionsCog(bot))
+
+[2024-06-11 14:44:50] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:45:07] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\jar\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(PermissionsCog(bot))
+
+[2024-06-11 14:45:07] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:46:43] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\jar\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(PermissionsCog(bot))
+
+[2024-06-11 14:46:43] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 14:52:43] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\jar\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(PermissionsCog(bot))
+
+[2024-06-11 14:52:43] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 16:52:42] [INFO] red.cleanup: grillribba (374623019437654016) deleted 6 messages sent by the bot in channel general.
+[2024-06-11 17:03:26] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session c9a138d84ba46626d669ebd6c238cc09.
+[2024-06-11 17:19:34] [ERROR] red: AttributeError
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py", line 549, in _adventure
+    if not await has_funds(ctx.author, 250):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\charsheet.py", line 1701, in has_funds
+    return await bank.can_spend(user, cost)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\bank\bank.py", line 194, in can_spend
+    return await get_balance(member, _forced=_forced) >= amount
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\bank\bank.py", line 135, in get_balance
+    acc = await get_account(member, _forced=_forced)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\bank\bank.py", line 493, in get_account
+    if _forced or (cog := _bot.get_cog("Adventure")) is None or not cog._separate_economy:
+                          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_cog'
+[2024-06-11 17:19:58] [ERROR] red: AttributeError
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py", line 549, in _adventure
+    if not await has_funds(ctx.author, 250):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\charsheet.py", line 1701, in has_funds
+    return await bank.can_spend(user, cost)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\bank\bank.py", line 194, in can_spend
+    return await get_balance(member, _forced=_forced) >= amount
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\bank\bank.py", line 135, in get_balance
+    acc = await get_account(member, _forced=_forced)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\bank\bank.py", line 493, in get_account
+    if _forced or (cog := _bot.get_cog("Adventure")) is None or not cog._separate_economy:
+                          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_cog'
+[2024-06-11 17:20:07] [ERROR] red: AttributeError
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\adventure.py", line 549, in _adventure
+    if not await has_funds(ctx.author, 250):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\charsheet.py", line 1701, in has_funds
+    return await bank.can_spend(user, cost)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\bank\bank.py", line 194, in can_spend
+    return await get_balance(member, _forced=_forced) >= amount
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\bank\bank.py", line 135, in get_balance
+    acc = await get_account(member, _forced=_forced)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\bank\bank.py", line 493, in get_account
+    if _forced or (cog := _bot.get_cog("Adventure")) is None or not cog._separate_economy:
+                          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_cog'
+[2024-06-11 17:20:17] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-11 17:20:17] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-11 17:20:28] [INFO] discord.client: logging in using static token
+[2024-06-11 17:20:29] [INFO] red: Loading packages...
+[2024-06-11 17:20:29] [INFO] red: Loaded packages: permissions, downloader, snipe, autotraceback, economy, mod, mutes, alias, jar, battlebot, adventure, customcom, warnings, admin, cleanup
+[2024-06-11 17:20:30] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4a16581f234bc14352353cd71b85d640).
+[2024-06-11 17:20:30] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-11 18:20:27] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 4a16581f234bc14352353cd71b85d640.
+[2024-06-11 19:09:09] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-11 19:09:09] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-11 19:56:54] [INFO] discord.client: logging in using static token
+[2024-06-11 19:56:55] [INFO] red: Loading packages...
+[2024-06-11 19:56:55] [INFO] red: Loaded packages: permissions, downloader, snipe, autotraceback, economy, mod, mutes, alias, jar, battlebot, customcom, warnings, admin, cleanup, adventure
+[2024-06-11 19:56:56] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 68b4e6bb97e1429d56395c1fcc7b890d).
+[2024-06-11 19:56:56] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-11 20:03:44] [ERROR] red: Exception in command 'negaverse'
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\negaverse.py", line 33, in _negaverse_command
+    await self._negaverse(ctx, offering)
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\negaverse.py", line 110, in _negaverse
+    lock.release()
+  File "C:\Users\halvo\AppData\Local\Programs\Python\Python311\Lib\asyncio\locks.py", line 140, in release
+    raise RuntimeError('Lock is not acquired.')
+RuntimeError: Lock is not acquired.
+[2024-06-11 20:19:39] [INFO] red.main: Shutting down with exit code: 0 (SHUTDOWN)
+[2024-06-11 20:19:39] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-11 20:19:46] [INFO] discord.client: logging in using static token
+[2024-06-11 20:19:46] [INFO] red: Loading packages...
+[2024-06-11 20:19:47] [INFO] red: Loaded packages: permissions, downloader, snipe, autotraceback, economy, mod, mutes, alias, jar, battlebot, customcom, warnings, admin, cleanup, adventure
+[2024-06-11 20:19:47] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 212bcad869fbce03a9f26eafc2f334c0).
+[2024-06-11 20:19:47] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-11 20:44:36] [INFO] red.main: Shutting down with exit code: 26 (RESTART)
+[2024-06-11 20:44:36] [INFO] red.main: Please wait, cleaning up a bit more
+[2024-06-11 20:44:54] [INFO] discord.client: logging in using static token
+[2024-06-11 20:44:55] [INFO] red: Loading packages...
+[2024-06-11 20:44:55] [INFO] red: Loaded packages: permissions, downloader, snipe, autotraceback, economy, mod, mutes, alias, jar, battlebot, customcom, warnings, admin, cleanup, adventure
+[2024-06-11 20:44:56] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 698e3998175b8350f105a09fac9b74f0).
+[2024-06-11 20:44:56] [INFO] red: Connected to Discord. Getting ready...
+[2024-06-11 21:13:00] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 698e3998175b8350f105a09fac9b74f0.
+[2024-06-11 21:22:43] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 698e3998175b8350f105a09fac9b74f0.
+[2024-06-11 22:02:34] [ERROR] discord.ui.view: Ignoring exception in view <GameSession timeout=120 children=6> for item <ActionButton style=<ButtonStyle.secondary: 2> url=None disabled=False label='Magic (1)' emoji=<PartialEmoji animated=False name='✨' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\game_session.py", line 86, in callback
+    await self.view.update()
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\adventure\game_session.py", line 519, in update
+    await self.message.edit(view=self)
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\message.py", line 2275, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 743, in request
+    raise DiscordServerError(response, data)
+discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: connection termination
+[2024-06-11 22:06:06] [INFO] discord.gateway: Shard ID 0 has successfully RESUMED session 698e3998175b8350f105a09fac9b74f0.
+[2024-06-11 23:31:38] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\trivia\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(Trivia(bot))
+
+[2024-06-11 23:31:38] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 23:32:48] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\trivia\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(Trivia(bot))
+
+[2024-06-11 23:32:48] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression
+[2024-06-11 23:36:52] [ERROR] discord.ui.modal: Ignoring exception in modal <JoinGameModal timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\ui\modal.py", line 188, in _scheduled_task
+    await self.on_submit(interaction)
+  File "C:\Users\halvo\AppData\Local\Red-DiscordBot\Red-DiscordBot\data\God\cogs\CogManager\cogs\acronymgame\view.py", line 82, in on_submit
+    self._parent._message: discord.Message = await self._parent._message.edit(embed=embed)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\message.py", line 2275, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\halvo\redenv\Lib\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+[2024-06-11 23:39:30] [WARNING] py.warnings: C:\Users\halvo\OneDrive\Skrivebord\Cogs\trivia\__init__.py:4: RuntimeWarning: coroutine 'Red.add_cog' was never awaited
+  bot.add_cog(Trivia(bot))
+
+[2024-06-11 23:39:30] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\core_commands.py", line 189, in _load
+    await bot.load_extension(spec)
+  File "C:\Users\halvo\redenv\Lib\site-packages\redbot\core\bot.py", line 1686, in load_extension
+    await lib.setup(self)
+TypeError: object NoneType can't be used in 'await' expression

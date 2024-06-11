@@ -1,0 +1,9 @@
+{
+    "God": {
+        "DATA_PATH": "C:\\Users\\halvo\\AppData\\Local\\Red-DiscordBot\\Red-DiscordBot\\data\\God",
+        "COG_PATH_APPEND": "cogs",
+        "CORE_PATH_APPEND": "core",
+        "STORAGE_TYPE": "JSON",
+        "STORAGE_DETAILS": {}
+    }
+}
